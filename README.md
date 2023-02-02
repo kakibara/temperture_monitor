@@ -1,1 +1,3 @@
-# temperture_monitor
+# temperture monitor
+
+ESP32と温度湿度計DHT20を用いて気温と湿度を計測してInfluxDBに送信する。
