@@ -3,6 +3,7 @@
 ESP32と温度湿度計DHT20を用いて気温と湿度を計測してInfluxDBに送信する。
 
 # requirements
+
 ## device
 - ESP32
 - DHT20
@@ -11,6 +12,11 @@ ESP32と温度湿度計DHT20を用いて気温と湿度を計測してInfluxDB�
 I2C通信で接続する。
 ESP32はp21がSDA p22がSCLである。
 DHT20は3.3v入力で、ESP32はプルアップ抵抗を内蔵しているので自分で実装する必要はない。
+
+## dependence
+
+- InfluxDB 2
+- grafana (advance for visualize)
 
 ## library for arduino IDE
 Arduino IDEのライブラリ検索からインストールできる。
