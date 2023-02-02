@@ -17,3 +17,5 @@ Arduino IDEのライブラリ検索からインストールできる。
 
 - [DHT20](https://github.com/RobTillaart/DHT20) v0.2.0
 - [ESP8266 Influxdb](https://github.com/tobiasschuerg/InfluxDB-Client-for-Arduino) v 3.12.2
+
+
